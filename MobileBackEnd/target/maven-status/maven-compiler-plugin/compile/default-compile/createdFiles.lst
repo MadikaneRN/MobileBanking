@@ -1,0 +1,10 @@
+za\ac\cput\factory\ClientFactory.class
+za\ac\cput\repository\ClientRepository.class
+za\ac\cput\rest\HelloWorld.class
+za\ac\cput\domain\Client$Builder.class
+za\ac\cput\services\impl\ClientServiceImpl.class
+za\ac\cput\services\Services.class
+za\ac\cput\domain\Client.class
+za\ac\cput\services\ClientService.class
+za\ac\cput\App.class
+za\ac\cput\rest\ClientController.class

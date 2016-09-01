@@ -55,7 +55,6 @@ public class ClientController {
 
     //-------------------------------------------Delete---------------------------------------------------
 
-
     @RequestMapping(value = "/client/delete/{id}",method = RequestMethod.DELETE)
     public ResponseEntity<Client> deleteClient(@PathVariable("id")long id)
     {
@@ -74,7 +73,7 @@ public class ClientController {
     }
 
     //----------------------------------Update----------------------------------------------------
-    @RequestMapping(value = "/update/{id}",method = RequestMethod.PUT)
+    @RequestMapping(value = "/client/update/{id}",method = RequestMethod.PUT)
     public ResponseEntity<Client> updateClient(@PathVariable("id") long id, @RequestBody Client client)
     {
         System.out.println("Updating Client " + id);

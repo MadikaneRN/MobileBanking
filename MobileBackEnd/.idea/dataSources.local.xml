@@ -7,11 +7,5 @@
       <schema-pattern>mobilebanking.*</schema-pattern>
       <default-schemas>mobilebanking.*</default-schemas>
     </data-source>
-    <data-source name="MySQL - mobilebanking@localhost [2]" uuid="ed0745ab-0dba-4639-85db-9360ad553472">
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <schema-pattern>mobilebanking.*</schema-pattern>
-      <default-schemas>mobilebanking.*</default-schemas>
-    </data-source>
   </component>
 </project>
